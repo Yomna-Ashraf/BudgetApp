@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="stylebudget.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="main-style">
+            <div class="head">
+                <h1>Budget App</h1>
+                <p class="p-head">We are going to help you managing yor own budget,
+                     and you won't regret. best budget app ever and the easiest.
+                    </p> 
+                <a href="#d1"><button class="h-btn">GET STARTED</button> </a>                   
+
+            </div>
+            <img src="head-img.png" class="h-img">
+        </header>
+        <main class="main-style">
+            <div class="input-output">
+                <div class="input">
+                    <div class="balance-money" id="d1">
+                        <div class="budget-feedback">budget feedback</div>
+                        <form id="budget-form">
+                            <label for="budget">Inter your budget:</label><br>
+                            <input type="number" id="budget-input" name="budget" placeholder="Budget"><br>
+                        
+                            <!--<input type="submit" value="Calculate" id="cal-btn">-->
+                            <button class="submit-btn" id="cal-btn">Calculate</button>
+                        </form>
+                    </div>
+                    <div class="expense-money" >
+                        <div class="expense-feedback">expense feedback</div>
+                        <form id="expense-form">
+                            <label for="expense">Inter your expenses:</label><br>
+                            <input type="text" id="expense-input" name="expense" placeholder="Expenses"><br>
+                            <label for="amount">Inter your expenses amount:</label><br>
+                            <input type="number" id="amount-input" name="amount" placeholder="Expenses Amount"><br>
+                            <button class="submit-btn" >Add Expense</button>
+                        </form>                
+                    </div>
+                </div>
+                <div class="output">
+                    <div class="div1">
+                        <div class="budget box">
+                            <img src="https://img.icons8.com/cotton/100/000000/receive-change.png" class="icon">
+                            <h2>Budget</h2>
+                            <p class="num-budget p-money" id="budget-amount">0</p>
+                        </div>
+                        <div class="expenses box">
+                            <img src="https://img.icons8.com/officel/100/000000/paycheque.png" class="icon">
+                            <h2>Expenses</h2>
+                            <p class="num-expenses p-money" id="expense-amount" style="color:red">0</p>
+                        </div>
+                        <div class="balance box">
+                            <img src="https://img.icons8.com/plasticine/100/000000/money.png" class="icon">
+                            <h2>Balance</h2>
+                            <p class="num-balance p-money" id="balance-amount" >0</p>
+                        </div>                         
+                    </div>
+                    <img src="Capture2.PNG" class="bud-img"> 
+                </div>                 
+            </div>
+            <div class="expense-items">
+                <img src="Capture3.PNG" class="item-img"/>
+
+                <div class="items" id="expense-list">
+                    <div class="head-itm">
+                        <p class="itm-name itm1">Expense Title</p>
+                        <p class="itm-cost itm1">Expense Value</p>
+                    </div>
+                    <!--<div class="exp-item" id=show-expense-div>
+                        <p class="item-name itm">-car</p>
+                        <p class="item-cost itm">2000</p>
+                        <div class="item-icons itm">
+                            <button><i class="fa fa-edit" style='color:green'></i></button>
+                            <button><i class="fa fa-trash" style='color:red'></i></button>
+                        </div>
+                    </div>-->
+                </div>
+            </div>  
+            <script src="script.js"></script>
+        </main>
+    </body>
+    </html>
+
+                                   
+
+
+
+
+
+

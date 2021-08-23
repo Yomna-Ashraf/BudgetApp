@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-size: 5rem;
+    color: rgb(0, 202, 185);
+    margin-bottom: 0px;
+}
+.main-style{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    margin-top: 10%;
+}
+.head{
+    width:40%;
+    margin:0;
+    padding-top: 50px;
+}
+.h-img{
+    width:60%;
+}
+.p-head{
+    /*text-align: center;*/
+    font-size: 1.1rem;
+    margin-right: 20px;
+    color: rgb(41, 83, 83);
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    max-width: 400px;
+}
+.h-btn{
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(255, 224, 48);
+    padding: 20px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.h-btn:hover{
+    background-color: rgb(231, 212, 34);
+}
+/*-----------------------main--------------------------*/
+main{
+    /*position: absolute;
+    top: 100%;*/
+    margin-top: 15%;
+    background-color: rgb(233, 240, 243);
+    border: 20px solid rgb(233, 240, 243);
+
+}
+.input{
+    width:40%;
+
+}
+
+.expense-money{
+    margin-top: 30px;
+
+}
+
+
+.output{
+    border: 10px solid white;
+    border-radius: 5px;
+    width:60%;
+    margin-left: 10px;
+    background-color: white;
+
+}
+.div1{
+    display:flex;
+    justify-content: space-around;
+
+}
+h2{
+    font-size: 1.8rem;
+    margin: 0;
+    color:rgb(37, 100, 109) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.p-money{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(37, 100, 109) ;
+
+}
+.bud-img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.box{
+    text-align: center;
+}
+.input-output{
+    display: flex;
+}
+
+form > label{
+    font-size: 1.5rem;
+}
+input[type=text], select {
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 2px solid rgb(37, 100, 109);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+input[type=number], select {
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    border: 2px solid rgb(37, 100, 109);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+} 
+
+
+.submit-btn {
+    width:100%;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(37, 100, 109);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.submit-btn:hover{
+    background-color: #cdcf4d;
+}
+input::placeholder {
+    font-size: 1rem;
+    color: #b8b8b5;
+    margin: 0;
+    padding: 0;
+  }
+
+.balance-money, .expense-money {
+    border-radius: 5px;
+    padding: 20px;
+    border: 10px solid white;
+
+    color:rgb(37, 100, 109) ;
+    font-weight: bold;
+    background-color: white;
+
+}
+.expense-items{
+    border: 10px solid white;
+    border-radius: 5px;
+    width: 98.50%;
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width:60%;
+}
+.item-img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+}
+.exp-item{
+    display: flex;
+    background-color: rgb(218, 253, 255);
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.itm1{
+    width: 30%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color:rgb(37, 100, 109) ;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.itm{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: rgb(207, 187, 5);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+}
+.head-itm{
+    display: flex;
+    background-color: rgb(211, 230, 243);
+    padding-left: 15px;
+}
+.item-icons > button > i{
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+@media only screen and (max-width: 1300px) {
+    .main-style{
+        width: 90%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    form > label{
+        font-size: 1.2rem;
+    }
+    .bud-img{
+        /*margin-top: 100px;*/
+        width: 90%;
+        -ms-transform: translate(0%, 25px);
+        transform: translate(0%, 25px);
+    }
+    h2,.p-money{
+        font-size: 1.2rem;
+    }
+    .balance-money, .expense-money{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    h1{
+        font-size: 3rem;
+    }
+    form > label{
+        font-size: 1.1rem;
+    }
+    .bud-img{
+        /*margin-top: 100px;*/
+        -ms-transform: translate(0%, 50px);
+        transform: translate(0%, 50px);
+    }
+}
+@media only screen and (max-width: 830px) {
+    .input-output{
+        flex-direction: column;
+    }
+    .input,.output,.expense-items{
+        width: 90%;
+        margin: auto;
+    }
+    .output{
+        margin-left: 0;
+        border: none;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .bud-img{
+        margin-top: 20px;
+        -ms-transform: translate(0%, 0);
+        transform: translate(0%, 0);
+    }
+    .expense-items{
+        border: none;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        
+    }
+        
+    
+    .item-img,.items{
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+
+    }
+}
+
+@media only screen and (max-width:720px) {
+    header{
+        flex-direction: column;
+    }
+    .head,.h-img{
+        width: 100%;
+    }
+    .p-head{
+        font-size: 1rem;
+    }
+    .h-btn{
+        font-size: 0.9rem;
+        padding: 15px 25px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .icon{
+        width: 65px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
+.item-icons > button{
+    outline: none;
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+.budget-feedback, .expense-feedback{
+    background-color: rgba(235, 61, 96, 0.247);
+    color: rgb(121, 1, 1);
+    font-size: 0.9rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.show-item{
+    display: block;
+}
